@@ -1,0 +1,10 @@
+language: node_js
+notifications:
+  email: false
+before_script:
+  - npm ls >/dev/null
+after_success: 'npm run coverage:report'
+env:
+  global:
+    - FORCE_COLOR=1
+    - NPM_CONFIG_COLOR=always
