@@ -9,6 +9,14 @@ module.exports = {
       options: {
         path: './content/'
       }
+    },
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
+    {
+      resolve: 'gatsby-transformer-screenshot',
+      options: {
+        nodeTypes: ['PresentationsYaml']
+      }
     }
   ]
 };

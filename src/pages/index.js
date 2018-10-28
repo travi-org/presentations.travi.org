@@ -1,14 +1,16 @@
 import React from 'react';
 import {arrayOf, shape, string} from 'prop-types';
+import Img from 'gatsby-image';
 
 export default function Presentations({data}) {
   return (
     <ol>
-      {data.allPresentationsYaml.edges.map(presentation => (
-        <li key={presentation.node.slides}>
-          <a href={presentation.node.slides}>
-            {presentation.node.title}
+      {data.allPresentationsYaml.edges.map(({node}) => (
+        <li key={node.slides}>
+          <a href={node.url}>
+            {node.title}
           </a>
+          <Img fixed={node.childScreenshot.screenshotFile.childImageSharp.fixed} alt={node.title} />
         </li>
       ))}
     </ol>
@@ -21,7 +23,7 @@ Presentations.propTypes = {
       edges: arrayOf(shape({
         node: shape({
           title: string.isRequired,
-          slides: string.isRequired
+          url: string.isRequired
         }).isRequired
       })).isRequired
     }).isRequired
@@ -34,7 +36,17 @@ export const query = graphql`
       edges {
         node {
           title
-          slides
+          url
+          childScreenshot {
+            screenshotFile {
+              id
+              childImageSharp {
+                fixed(width: 384, height: 288) {
+                  ...GatsbyImageSharpFixed
+                }
+              }
+            }
+          }
         }
       }
     }

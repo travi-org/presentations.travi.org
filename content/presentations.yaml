@@ -1,8 +1,8 @@
 - title: Component Library
-  slides: https://presentations.travi.org/component-library/
+  url: https://presentations.travi.org/component-library/
 - title: Continuous Deployment
-  slides: https://presentations.travi.org/continuous-deployment/
+  url: https://presentations.travi.org/continuous-deployment/
 - title: Learn React in Isolation
-  slides: https://presentations.travi.org/react-in-isolation/
+  url: https://presentations.travi.org/react-in-isolation/
 - title: Avoiding the Monorepo
-  slides: https://presentations.travi.org/avoiding-the-monorepo/
+  url: https://presentations.travi.org/avoiding-the-monorepo/
