@@ -8,7 +8,8 @@
   "homepage": "https://github.com/travi/presentations.travi.org#readme",
   "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
   "scripts": {
-    "start": "./lib/index.js",
+    "develop": "gatsby develop",
+    "start": "run-s develop",
     "lint:md": "remark . --frail",
     "lint:js": "eslint . --cache",
     "lint:travis": "travis-lint .travis.yml",
@@ -22,7 +23,6 @@
   },
   "devDependencies": {
     "@travi/eslint-config-travi": "1.6.18",
-    "babel-preset-travi": "1.4.0",
     "babel-register": "6.26.0",
     "ban-sensitive-files": "1.9.2",
     "commitlint-config-travi": "1.2.31",
@@ -32,5 +32,10 @@
     "remark-cli": "6.0.0",
     "remark-preset-lint-travi": "1.1.0",
     "travis-lint": "1.0.0"
+  },
+  "dependencies": {
+    "gatsby": "2.0.31",
+    "react": "16.6.0",
+    "react-dom": "16.6.0"
   }
 }
