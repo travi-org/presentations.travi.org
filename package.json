@@ -16,7 +16,7 @@
     "lint:travis": "travis-lint .travis.yml",
     "lint:sensitive": "ban",
     "test": "npm-run-all --print-label --parallel lint:*",
-    "deploy:netlify": "netlify deploy --site=$NETLIFY_SITE_ID --auth=$NETLIFY_ACCESS_TOKEN --dir=./public --prod"
+    "deploy": "netlify deploy --site=$NETLIFY_SITE_ID --auth=$NETLIFY_ACCESS_TOKEN --dir=./public --prod"
   },
   "config": {
     "commitizen": {
