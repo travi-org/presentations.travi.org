@@ -9,6 +9,7 @@
   "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
   "scripts": {
     "develop": "gatsby develop",
+    "build": "gatsby build",
     "start": "run-s develop",
     "lint:md": "remark . --frail",
     "lint:js": "eslint . --cache",
