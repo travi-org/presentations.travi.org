@@ -1,7 +1,5 @@
 # presentations.travi.org
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/travi-org/presentations.travi.org.svg)](https://greenkeeper.io/)
-
 Site to list presentations I&#39;ve given
 
 <!-- status badges -->
@@ -16,6 +14,7 @@ Site to list presentations I&#39;ve given
 [![Conventional Commits][commit-convention-badge]][commit-convention-link]
 [![Commitizen friendly][commitizen-badge]][commitizen-link]
 [![PRs Welcome][PRs-badge]][PRs-link]
+[![Greenkeeper badge](https://badges.greenkeeper.io/travi-org/presentations.travi.org.svg)](https://greenkeeper.io/)
 
 ### Dependencies
 
