@@ -41,7 +41,7 @@
     "@material-ui/core": "3.3.2",
     "gatsby": "2.0.31",
     "gatsby-image": "2.0.17",
-    "gatsby-plugin-sharp": "2.0.8",
+    "gatsby-plugin-sharp": "2.0.9",
     "gatsby-source-filesystem": "2.0.5",
     "gatsby-transformer-screenshot": "2.0.4",
     "gatsby-transformer-sharp": "2.1.5",
