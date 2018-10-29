@@ -1,5 +1,7 @@
 # presentations.travi.org
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/travi-org/presentations.travi.org.svg)](https://greenkeeper.io/)
+
 Site to list presentations I&#39;ve given
 
 <!-- status badges -->
