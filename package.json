@@ -5,7 +5,7 @@
   "private": true,
   "repository": "travi/presentations.travi.org",
   "bugs": "https://github.com/travi/presentations.travi.org/issues",
-  "homepage": "https://github.com/travi/presentations.travi.org#readme",
+  "homepage": "https://travi-presentations.netlify.com/",
   "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
   "scripts": {
     "develop": "gatsby develop",

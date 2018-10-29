@@ -1,6 +1,6 @@
 repository:
   description: Site to list presentations I've given
-  homepage: 'https://github.com/travi/presentations.travi.org#readme'
+  homepage: 'https://travi-presentations.netlify.com/'
   has_wiki: false
   has_projects: false
   has_downloads: false
