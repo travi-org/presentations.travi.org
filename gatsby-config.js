@@ -17,6 +17,15 @@ module.exports = {
       options: {
         nodeTypes: ['PresentationsYaml']
       }
+    },
+    {
+      resolve: 'gatsby-plugin-google-fonts',
+      options: {
+        fonts: [
+          'roboto:300,400,500',
+          'permanent marker:regular&text=Travi'
+        ]
+      }
     }
   ]
 };
