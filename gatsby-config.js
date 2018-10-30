@@ -27,6 +27,10 @@ module.exports = {
           'permanent marker:regular&text=Travi'
         ]
       }
+    },
+    {
+      resolve: 'gatsby-plugin-emotion',
+      options: {}
     }
   ]
 };

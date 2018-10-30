@@ -2,19 +2,24 @@ import React from 'react';
 import {arrayOf, shape, string} from 'prop-types';
 import {graphql} from 'gatsby';
 import Img from 'gatsby-image';
-import {Card, CardActionArea, CardHeader} from '@material-ui/core';
+import {Card, CardActionArea} from '@material-ui/core';
+import {css} from 'emotion';
 import Layout from '../components/layout';
+
+const inlineListStyles = css({
+  li: {display: 'inline-block', padding: 10}
+});
 
 export default function Presentations({data}) {
   return (
     <Layout>
-      <ol style={{listStyleType: 'none'}}>
+      <ol style={{listStyleType: 'none'}} className={inlineListStyles}>
         {data.allPresentationsYaml.edges.map(({node}) => (
           <li key={node.url}>
             <Card>
               <CardActionArea>
                 <a href={node.url}>
-                  <CardHeader title={node.title} />
+                  {/* <CardHeader title={node.title} /> */}
                   <Img fixed={node.childScreenshot.screenshotFile.childImageSharp.fixed} alt={node.title} />
                 </a>
               </CardActionArea>
