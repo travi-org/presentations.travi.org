@@ -1,24 +1,28 @@
 import React from 'react';
 import {arrayOf, shape, string} from 'prop-types';
+import {graphql} from 'gatsby';
 import Img from 'gatsby-image';
 import {Card, CardActionArea, CardHeader} from '@material-ui/core';
+import Layout from '../components/layout';
 
 export default function Presentations({data}) {
   return (
-    <ol style={{listStyleType: 'none'}}>
-      {data.allPresentationsYaml.edges.map(({node}) => (
-        <li key={node.slides}>
-          <Card>
-            <CardActionArea>
-              <a href={node.url}>
-                <CardHeader title={node.title} />
-                <Img fixed={node.childScreenshot.screenshotFile.childImageSharp.fixed} alt={node.title} />
-              </a>
-            </CardActionArea>
-          </Card>
-        </li>
-      ))}
-    </ol>
+    <Layout>
+      <ol style={{listStyleType: 'none'}}>
+        {data.allPresentationsYaml.edges.map(({node}) => (
+          <li key={node.url}>
+            <Card>
+              <CardActionArea>
+                <a href={node.url}>
+                  <CardHeader title={node.title} />
+                  <Img fixed={node.childScreenshot.screenshotFile.childImageSharp.fixed} alt={node.title} />
+                </a>
+              </CardActionArea>
+            </Card>
+          </li>
+        ))}
+      </ol>
+    </Layout>
   );
 }
 
