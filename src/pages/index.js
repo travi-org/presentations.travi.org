@@ -7,13 +7,14 @@ import {css} from 'emotion';
 import Layout from '../components/layout';
 
 const inlineListStyles = css({
+  listStyleType: 'none',
   li: {display: 'inline-block', padding: 10}
 });
 
 export default function Presentations({data}) {
   return (
     <Layout>
-      <ol style={{listStyleType: 'none'}} className={inlineListStyles}>
+      <ol className={inlineListStyles}>
         {data.allPresentationsYaml.edges.map(({node}) => (
           <li key={node.url}>
             <Card>
