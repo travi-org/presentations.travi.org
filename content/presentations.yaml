@@ -4,5 +4,33 @@
   url: https://presentations.travi.org/continuous-deployment/
 - title: Learn React in Isolation
   url: https://react-in-isolation.netlify.com/
+  events:
+    - title: Learn React in Isolation
+      url: https://dsmjs-oct-2017--react-in-isolation.netlify.com/
+      event:
+        date:
+          month: October
+          year: 2017
+          url: https://dsmjs.com/2017/10/10/meeting.html
+        name: dsmJS
+        url: https://dsmjs.com/
+    - title: Learn React in Isolation
+      url: https://icc-nov-2017--react-in-isolation.netlify.com/
+      event:
+        date:
+          month: November
+          year: 2017
+        name: Iowa Code Camp
+        url: http://iowacodecamp.com/
 - title: Avoiding the Monorepo
   url: https://avoiding-the-monorepo.netlify.com/
+  events:
+    - title: Avoiding the Monorepo
+      url: https://dsmjs-may-2018--avoiding-the-monorepo.netlify.com/
+      event:
+        date:
+          month: May
+          year: 2018
+          url: https://dsmjs.com/2018/05/08/meeting.html
+        name: dsmJS
+        url: https://dsmjs.com/
