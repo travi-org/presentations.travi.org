@@ -30,9 +30,9 @@ $ npm test
 ```
 
 [license-link]: LICENSE
-[license-badge]: https://img.shields.io/github/license/travi/presentations.travi.org.svg
-[ci-link]: https://travis-ci.com/com/travi/presentations.travi.org
-[ci-badge]: https://img.shields.io/travis/com/travi/presentations.travi.org.svg?branch=master
+[license-badge]: https://img.shields.io/github/license/travi-org/presentations.travi.org.svg
+[ci-link]: https://travis-ci.com/travi-org/presentations.travi.org
+[ci-badge]: https://img.shields.io/travis/com/travi-org/presentations.travi.org/master.svg
 [commit-convention-link]: https://conventionalcommits.org
 [commit-convention-badge]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg
 [commitizen-link]: http://commitizen.github.io/cz-cli/
