@@ -53,7 +53,7 @@
     "gatsby-transformer-sharp": "2.1.8",
     "gatsby-transformer-yaml": "2.1.4",
     "prop-types": "15.6.2",
-    "react": "16.6.0",
+    "react": "16.6.1",
     "react-dom": "16.6.0",
     "react-emotion": "9.2.12",
     "react-helmet": "5.2.0"
