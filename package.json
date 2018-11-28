@@ -25,7 +25,8 @@
     }
   },
   "devDependencies": {
-    "@travi/eslint-config-travi": "1.7.0",
+    "@travi/eslint-config-travi": "1.6.18",
+    "babel-eslint": "8.2.6",
     "babel-register": "6.26.0",
     "ban-sensitive-files": "1.9.2",
     "commitlint-config-travi": "1.2.31",
