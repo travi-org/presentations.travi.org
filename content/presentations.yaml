@@ -14,6 +14,7 @@
           url: https://dsmjs.com/2017/10/10/meeting.html
         name: dsmJS
         url: https://dsmjs.com/
+      code: https://github.com/travi/react-in-isolation/tree/dsmjs-oct-2017
     - title: Learn React in Isolation
       url: https://icc-nov-2017--react-in-isolation.netlify.com/
       event:
@@ -22,6 +23,7 @@
           year: 2017
         name: Iowa Code Camp
         url: http://iowacodecamp.com/
+      code: https://github.com/travi/react-in-isolation/tree/icc-nov-2017
     - title: Learn React In Isolation
       url: https://webgeeks-dec-2018--react-in-isolation-demo.netlify.com
       event:
@@ -31,6 +33,8 @@
           url: https://www.dsmwebgeeks.com/wg_events/learning-react-in-isolation/
         name: DSM Web Geeks
         url: https://www.dsmwebgeeks.com/
+      code: https://github.com/travi/react-in-isolation/tree/webgeeks-dec-2018
+      video: https://www.facebook.com/DSMWebGeeks/videos/221272108792952/
 - title: Avoiding the Monorepo
   url: https://avoiding-the-monorepo.travi.org/
   events:
