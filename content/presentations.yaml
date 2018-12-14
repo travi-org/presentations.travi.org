@@ -22,6 +22,15 @@
           year: 2017
         name: Iowa Code Camp
         url: http://iowacodecamp.com/
+    - title: Learn React In Isolation
+      url: https://webgeeks-dec-2018--react-in-isolation-demo.netlify.com
+      event:
+        date:
+          month: December
+          year: 2018
+          url: https://www.dsmwebgeeks.com/wg_events/learning-react-in-isolation/
+        name: DSM Web Geeks
+        url: https://www.dsmwebgeeks.com/
 - title: Avoiding the Monorepo
   url: https://avoiding-the-monorepo.travi.org/
   events:
