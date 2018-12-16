@@ -1,45 +1,55 @@
 - title: Component Library
   url: https://presentations.travi.org/component-library/
 
+  events:
+    - title: Collaborating through a shared component library
+#      url:
+      event:
+        date: 2016-07-12
+        url: https://dsmjs.com/2016/07/12/meeting.html
+        name: dsmJS
+        site: https://dsmjs.com/
 
 
 - title: Continuous Deployment
   url: https://presentations.travi.org/continuous-deployment/
 
+  events:
+    - title: Continuous Deployment of npm packages
+      event:
+        date: 2017-06-13
+        url: https://dsmjs.com/2017/06/13/meeting.html
+        name: dsmJS
+        site: https://dsmjs.com/
 
 
-- title: Learn React in Isolation
+
+- title: React in Isolation
   url: https://react-in-isolation.travi.org/
 
   events:
     - title: Learn React in Isolation
       url: https://dsmjs-oct-2017--react-in-isolation.netlify.com/
       event:
-        date:
-          month: October
-          year: 2017
-          url: https://dsmjs.com/2017/10/10/meeting.html
+        date: 2017-10-10
+        url: https://dsmjs.com/2017/10/10/meeting.html
         name: dsmJS
-        url: https://dsmjs.com/
+        site: https://dsmjs.com/
       code: https://github.com/travi/react-in-isolation/tree/dsmjs-oct-2017
     - title: Learn React in Isolation
       url: https://icc-nov-2017--react-in-isolation.netlify.com/
       event:
-        date:
-          month: November
-          year: 2017
+        date: 2017-11-04
         name: Iowa Code Camp
-        url: http://iowacodecamp.com/
+        site: http://iowacodecamp.com/
       code: https://github.com/travi/react-in-isolation/tree/icc-nov-2017
     - title: Learn React In Isolation
       url: https://webgeeks-dec-2018--react-in-isolation-demo.netlify.com
       event:
-        date:
-          month: December
-          year: 2018
-          url: https://www.dsmwebgeeks.com/wg_events/learning-react-in-isolation/
+        date: 2018-12-12
+        url: https://www.dsmwebgeeks.com/wg_events/learning-react-in-isolation/
         name: DSM Web Geeks
-        url: https://www.dsmwebgeeks.com/
+        site: https://www.dsmwebgeeks.com/
       code: https://github.com/travi/react-in-isolation/tree/webgeeks-dec-2018
       video: https://www.facebook.com/DSMWebGeeks/videos/221272108792952/
 
@@ -52,12 +62,10 @@
     - title: Avoiding the Monorepo
       url: https://dsmjs-may-2018--avoiding-the-monorepo.netlify.com/
       event:
-        date:
-          month: May
-          year: 2018
-          url: https://dsmjs.com/2018/05/08/meeting.html
+        date: 2018-05-08
+        url: https://dsmjs.com/2018/05/08/meeting.html
         name: dsmJS
-        url: https://dsmjs.com/
+        site: https://dsmjs.com/
 
 
 
@@ -67,8 +75,6 @@
     - title: CI vs CD - The Unexpected Conflict
       url: https://icc-dec-2018--ci-vs-cd.netlify.com/
       event:
-        date:
-          month: December
-          year: 2018
+        date: 2018-12-08
         name: Iowa Code Camp
-        url: http://iowacodecamp.com
+        site: http://iowacodecamp.com
