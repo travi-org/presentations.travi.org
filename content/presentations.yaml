@@ -1,9 +1,16 @@
 - title: Component Library
   url: https://presentations.travi.org/component-library/
+
+
+
 - title: Continuous Deployment
   url: https://presentations.travi.org/continuous-deployment/
+
+
+
 - title: Learn React in Isolation
   url: https://react-in-isolation.travi.org/
+
   events:
     - title: Learn React in Isolation
       url: https://dsmjs-oct-2017--react-in-isolation.netlify.com/
@@ -35,8 +42,12 @@
         url: https://www.dsmwebgeeks.com/
       code: https://github.com/travi/react-in-isolation/tree/webgeeks-dec-2018
       video: https://www.facebook.com/DSMWebGeeks/videos/221272108792952/
+
+
+
 - title: Avoiding the Monorepo
   url: https://avoiding-the-monorepo.travi.org/
+
   events:
     - title: Avoiding the Monorepo
       url: https://dsmjs-may-2018--avoiding-the-monorepo.netlify.com/
@@ -47,6 +58,9 @@
           url: https://dsmjs.com/2018/05/08/meeting.html
         name: dsmJS
         url: https://dsmjs.com/
+
+
+
 - title: CI and CD Compatibility
   url: https://ci-vs-cd.travi.org/
   events:
