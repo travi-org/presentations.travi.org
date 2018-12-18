@@ -12,10 +12,11 @@
 
 
 - title: Continuous Deployment
-  url: https://presentations.travi.org/continuous-deployment/
+  url: https://continuous-deployment.travi.org/
 
   events:
     - title: Continuous Deployment of npm packages
+      url: https://dsmjs-june-2017--continuous-deployment.netlify.com/
       event:
         date: 2017-06-13
         url: https://dsmjs.com/2017/06/13/meeting.html
