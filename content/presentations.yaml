@@ -1,9 +1,9 @@
 - title: Component Library
-  url: https://presentations.travi.org/component-library/
+  url: https://component-library.travi.org/
 
   events:
     - title: Collaborating through a shared component library
-#      url:
+      url: https://dsmjs-july-2016--travi-component-library.netlify.com/
       event:
         date: 2016-07-12
         url: https://dsmjs.com/2016/07/12/meeting.html
