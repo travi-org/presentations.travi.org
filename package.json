@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "@material-ui/core": "3.8.3",
-    "@travi/matt.travi.org-components": "2.2.1",
+    "@travi/matt.travi.org-components": "2.2.2",
     "emotion": "9.2.12",
     "emotion-server": "9.2.12",
     "gatsby": "2.0.64",
