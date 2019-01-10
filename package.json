@@ -43,7 +43,7 @@
     "@travi/matt.travi.org-components": "2.6.1",
     "emotion": "9.2.12",
     "emotion-server": "9.2.12",
-    "gatsby": "2.0.64",
+    "gatsby": "2.0.91",
     "gatsby-image": "2.0.26",
     "gatsby-plugin-emotion": "4.0.1",
     "gatsby-plugin-google-fonts": "0.0.4",
