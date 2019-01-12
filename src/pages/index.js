@@ -8,7 +8,13 @@ import Layout from '../components/layout';
 
 const inlineListStyles = css({
   listStyleType: 'none',
-  li: {display: 'inline-block', padding: 10}
+  padding: 0,
+  minHeight: '90vh',
+  display: 'flex',
+  flexWrap: 'wrap',
+  justifyContent: 'space-around',
+  alignContent: 'space-around',
+  li: {margin: '10px'}
 });
 
 export default function Presentations({data}) {
