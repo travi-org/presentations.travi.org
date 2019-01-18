@@ -3,24 +3,23 @@ import {arrayOf, shape, string} from 'prop-types';
 import {graphql} from 'gatsby';
 import Img from 'gatsby-image';
 import {Card, CardActionArea} from '@material-ui/core';
-import {css} from 'emotion';
 import Layout from '../components/layout';
-
-const inlineListStyles = css({
-  listStyleType: 'none',
-  padding: 0,
-  minHeight: '90vh',
-  display: 'flex',
-  flexWrap: 'wrap',
-  justifyContent: 'space-around',
-  alignContent: 'space-around',
-  li: {margin: '10px'}
-});
 
 export default function Presentations({data}) {
   return (
     <Layout>
-      <ol className={inlineListStyles}>
+      <ol
+        css={{
+          listStyleType: 'none',
+          padding: 0,
+          minHeight: '90vh',
+          display: 'flex',
+          flexWrap: 'wrap',
+          justifyContent: 'space-around',
+          alignContent: 'space-around',
+          li: {margin: '10px'}
+        }}
+      >
         {data.allPresentationsYaml.edges.map(({node}) => (
           <li key={node.url}>
             <Card>
