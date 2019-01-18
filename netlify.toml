@@ -11,3 +11,4 @@
 [[redirects]]
   from = "https://travi-presentations.netlify.com/*"
   to = "https://presentations.travi.org/:splat"
+  force = true
