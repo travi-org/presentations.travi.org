@@ -1,8 +1,8 @@
 language: node_js
 notifications:
   email: false
-before_script:
-- npm ls --production >/dev/null
+#before_script:
+#- npm ls --production >/dev/null
 deploy:
 - skip_cleanup: true
   provider: script
