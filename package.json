@@ -44,7 +44,7 @@
     "@emotion/core": "10.0.6",
     "@material-ui/core": "3.9.0",
     "@travi/matt.travi.org-components": "2.9.0",
-    "gatsby": "2.0.93",
+    "gatsby": "2.0.94",
     "gatsby-image": "2.0.27",
     "gatsby-plugin-emotion": "4.0.1",
     "gatsby-plugin-google-fonts": "0.0.4",
