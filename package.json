@@ -52,7 +52,7 @@
     "gatsby-plugin-sharp": "2.0.18",
     "gatsby-source-filesystem": "2.0.17",
     "gatsby-transformer-screenshot": "2.0.10",
-    "gatsby-transformer-sharp": "2.1.10",
+    "gatsby-transformer-sharp": "2.1.12",
     "gatsby-transformer-yaml": "2.1.7",
     "prop-types": "15.6.2",
     "react": "16.7.0",
