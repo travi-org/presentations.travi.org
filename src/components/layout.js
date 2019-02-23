@@ -22,7 +22,9 @@ export default function Layout({children}) {
             <Helmet
               titleTemplate={`%s | ${data.site.siteMetadata.title}`}
               defaultTitle={data.site.siteMetadata.title}
-            />
+            >
+              <meta name="theme-color" content="#c80000" />
+            </Helmet>
             {children}
           </Fragment>
         )}
