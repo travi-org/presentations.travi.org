@@ -28,9 +28,10 @@ module.exports = {
         ]
       }
     },
+    'gatsby-plugin-material-ui',
     {
-      resolve: 'gatsby-plugin-emotion',
-      options: {}
+      resolve: 'gatsby-plugin-favicon',
+      options: {theme_color: '#c80000'}
     }
   ]
 };
