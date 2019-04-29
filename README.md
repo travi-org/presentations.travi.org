@@ -4,6 +4,7 @@ Site to list presentations I&#39;ve given
 
 <!-- status badges -->
 [![Build Status][ci-badge]][ci-link]
+![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m781503154-7dd25d03d7aa42a5959b7ebc.svg)
 
 <!-- consumer badges -->
 [![MIT license][license-badge]][license-link]
