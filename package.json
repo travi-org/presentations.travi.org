@@ -27,7 +27,7 @@
   "devDependencies": {
     "@emotion/babel-preset-css-prop": "10.0.9",
     "@travi/eslint-config-travi": "1.8.0",
-    "babel-eslint": "10.0.1",
+    "babel-eslint": "10.0.2",
     "babel-preset-gatsby": "0.1.11",
     "babel-register": "6.26.0",
     "ban-sensitive-files": "1.9.2",
