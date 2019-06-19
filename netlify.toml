@@ -12,3 +12,8 @@
   from = "https://travi-presentations.netlify.com/*"
   to = "https://presentations.travi.org/:splat"
   force = true
+  
+[[redirects]]
+  from = "/continuous-deployment/*"
+  to = "https://continuous-deployment.travi.org/:splat"
+  
