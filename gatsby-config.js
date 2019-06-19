@@ -28,6 +28,19 @@ module.exports = {
         ]
       }
     },
+    {
+      resolve: 'gatsby-plugin-webmention',
+      options: {
+        username: 'matt.travi.org',
+        identity: {
+          github: 'travi',
+          twitter: 'mtravi'
+        },
+        mentions: true,
+        pingbacks: true,
+        domain: 'matt.travi.org'
+      }
+    },
     'gatsby-plugin-material-ui',
     {
       resolve: 'gatsby-plugin-favicon',

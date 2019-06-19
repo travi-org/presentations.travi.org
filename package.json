@@ -52,6 +52,7 @@
     "gatsby-plugin-material-ui": "1.2.5",
     "gatsby-plugin-react-helmet": "3.0.12",
     "gatsby-plugin-sharp": "2.0.37",
+    "gatsby-plugin-webmention": "0.1.0",
     "gatsby-source-filesystem": "2.0.34",
     "gatsby-transformer-screenshot": "2.0.13",
     "gatsby-transformer-sharp": "2.1.19",
