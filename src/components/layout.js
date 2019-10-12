@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import {node} from 'prop-types';
 import Helmet from 'react-helmet';
 import {graphql, StaticQuery} from 'gatsby';
@@ -18,7 +18,7 @@ export default function Layout({children}) {
             }
           `}
         render={data => (
-          <Fragment>
+          <>
             <Helmet
               titleTemplate={`%s | ${data.site.siteMetadata.title}`}
               defaultTitle={data.site.siteMetadata.title}
@@ -26,7 +26,7 @@ export default function Layout({children}) {
               <meta name="theme-color" content="#c80000" />
             </Helmet>
             {children}
-          </Fragment>
+          </>
         )}
       />
     </LayoutComponent>
