@@ -1,12 +1,11 @@
+version: ~> 1.0
 language: node_js
 notifications:
   email: false
+import:
+  - source: travi-org/.travis-ci:authenticated-netlify-deploy.yml
 #before_script:
 #- npm ls --production >/dev/null
-deploy:
-- skip_cleanup: true
-  provider: script
-  script: npm run deploy
 env:
   global:
   - FORCE_COLOR=1
