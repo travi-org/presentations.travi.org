@@ -2,7 +2,7 @@ import React from 'react';
 import {node} from 'prop-types';
 import Helmet from 'react-helmet';
 import {graphql, StaticQuery} from 'gatsby';
-import {Layout as LayoutComponent} from '@travi/matt.travi.org-components';
+import {Layout as LayoutComponent} from '@travi/travi.org-theme-components';
 
 export default function Layout({children}) {
   return (
