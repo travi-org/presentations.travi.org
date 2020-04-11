@@ -1,3 +1,6 @@
+const polished = require('polished');
+const brandRules = require('@travi/brand');
+
 module.exports = {
   siteMetadata: {
     title: 'Travi Presentations'
@@ -43,8 +46,17 @@ module.exports = {
     },
     'gatsby-plugin-material-ui',
     {
-      resolve: 'gatsby-plugin-favicon',
-      options: {theme_color: '#c80000'}
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'Travi Presentations',
+        short_name: 'Presentations',
+        description: 'Presentations by Matt Travi',
+        lang: 'en',
+        start_url: '/',
+        display: 'minimal-ui',
+        theme_color: polished.rgb(brandRules.colors['brand-palette']['dark-red']),
+        icon: 'node_modules/@travi/brand/dist/img/square-logo.svg'
+      }
     }
   ]
 };
