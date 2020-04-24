@@ -22,7 +22,6 @@ Site to list presentations I've given
 [![Conventional Commits][commit-convention-badge]][commit-convention-link]
 [![Commitizen friendly][commitizen-badge]][commitizen-link]
 [![PRs Welcome][PRs-badge]][PRs-link]
-[![Greenkeeper badge](https://badges.greenkeeper.io/travi-org/presentations.travi.org.svg)](https://greenkeeper.io/)
 [![Renovate][renovate-badge]][renovate-link]
 
 <!--contribution-badges end -->
