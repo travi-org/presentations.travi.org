@@ -59,7 +59,7 @@
     "gatsby-transformer-screenshot": "2.2.1",
     "gatsby-transformer-sharp": "2.4.4",
     "gatsby-transformer-yaml": "2.3.1",
-    "polished": "3.5.2",
+    "polished": "3.6.0",
     "prop-types": "15.7.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
