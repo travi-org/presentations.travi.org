@@ -42,7 +42,7 @@
     "travis-lint": "1.0.0"
   },
   "dependencies": {
-    "@emotion/core": "10.1.0",
+    "@emotion/core": "10.1.1",
     "@material-ui/core": "4.11.0",
     "@travi/brand": "1.0.0",
     "@travi/travi.org-theme-components": "1.2.0",
