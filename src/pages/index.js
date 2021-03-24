@@ -24,7 +24,7 @@ export default function Presentations({data}) {
           <li key={node.url}>
             <Card>
               <CardActionArea>
-                <a href={node.url}>
+                <a href={node.publicUrl}>
                   {/* <CardHeader title={node.title} /> */}
                   <Img fixed={node.childScreenshot.screenshotFile.childImageSharp.fixed} alt={node.title} />
                 </a>
@@ -43,7 +43,8 @@ Presentations.propTypes = {
       edges: arrayOf(shape({
         node: shape({
           title: string.isRequired,
-          url: string.isRequired
+          url: string.isRequired,
+          publicUrl: string.isRequired
         }).isRequired
       })).isRequired
     }).isRequired
@@ -57,6 +58,7 @@ export const query = graphql`
         node {
           title
           url
+          publicUrl
           childScreenshot {
             screenshotFile {
               id

@@ -1,5 +1,6 @@
 - title: Component Library
-  url: https://component-library.travi.org/
+  url: https://travi-component-library.netlify.com/
+  publicUrl: https://component-library.travi.org/
 
   events:
     - title: Collaborating through a shared component library
@@ -12,7 +13,8 @@
 
 
 - title: Continuous Deployment
-  url: https://continuous-deployment.travi.org/
+  url: https://continuous-deployment.netlify.com/
+  publicUrl: https://continuous-deployment.travi.org/
 
   events:
     - title: Continuous Deployment of npm packages
@@ -26,7 +28,8 @@
 
 
 - title: React in Isolation
-  url: https://react-in-isolation.travi.org/
+  url: https://react-in-isolation.netlify.com/
+  publicUrl: https://react-in-isolation.travi.org/
 
   events:
     - title: Learn React in Isolation
@@ -57,7 +60,8 @@
 
 
 - title: Avoiding the Monorepo
-  url: https://avoiding-the-monorepo.travi.org/
+  url: https://avoiding-the-monorepo.netlify.com/
+  publicUrl: https://avoiding-the-monorepo.travi.org/
 
   events:
     - title: Avoiding the Monorepo
@@ -71,7 +75,9 @@
 
 
 - title: CI and CD Compatibility
-  url: https://ci-vs-cd.travi.org/
+  url: https://ci-vs-cd.netlify.com/
+  publicUrl: https://ci-vs-cd.travi.org/
+
   events:
     - title: CI vs CD - The Unexpected Conflict
       url: https://icc-dec-2018--ci-vs-cd.netlify.com/
@@ -81,7 +87,9 @@
         site: http://iowacodecamp.com
 
 - title: Confidence to Move Fast
-  url: https://confidence-to-move-fast.travi.org/
+  url: https://confidence-to-move-fast.netlify.com/
+  publicUrl: https://confidence-to-move-fast.travi.org/
+
   events:
     - title: With Enough Confidence, You Can Move Fast
       url: https://webgeeks-april-2019--confidence-to-move-fast.netlify.com/
