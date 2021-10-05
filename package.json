@@ -17,7 +17,8 @@
     "lint:peer": "npm ls >/dev/null",
     "test": "npm-run-all --print-label --parallel lint:* build",
     "predeploy:netlify": "run-s build",
-    "deploy:netlify": "netlify deploy --dir=./public --prod"
+    "deploy:netlify": "netlify deploy --dir=./public --prod",
+    "prepare": "husky install"
   },
   "config": {
     "commitizen": {
