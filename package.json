@@ -31,7 +31,7 @@
     "babel-eslint": "10.1.0",
     "babel-preset-gatsby": "0.12.3",
     "babel-register": "6.26.0",
-    "ban-sensitive-files": "1.9.17",
+    "ban-sensitive-files": "1.9.18",
     "commitlint-config-travi": "1.4.10",
     "cz-conventional-changelog": "3.3.0",
     "husky": "7.0.4",
