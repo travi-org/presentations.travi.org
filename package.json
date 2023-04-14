@@ -32,7 +32,7 @@
     "babel-preset-gatsby": "2.25.0",
     "babel-register": "6.26.0",
     "ban-sensitive-files": "1.9.19",
-    "commitlint-config-travi": "1.4.27",
+    "commitlint-config-travi": "1.4.28",
     "cz-conventional-changelog": "3.3.0",
     "husky": "8.0.3",
     "netlify-cli": "8.1.4",
