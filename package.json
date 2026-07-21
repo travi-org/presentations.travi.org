@@ -61,7 +61,7 @@
     "polished": "4.2.2",
     "prop-types": "15.8.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "react-dom": "19.2.7",
     "react-emotion": "10.0.0",
     "react-helmet": "6.1.0"
   }
